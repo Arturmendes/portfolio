@@ -6,7 +6,7 @@
 }
 
 .foto{
-    float: right;
+    
 }
 
 img{
@@ -15,17 +15,18 @@ img{
     
 }
 
-.titulo{
-    float: left;
+.titulo{    
     margin-left: 60px;
 }
 header{
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     background-color: blue;
-    width: 560px;
+    width: 780px;
     height: 150px;
-    margin: auto;    
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    margin: auto;
+    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.473);
 }
 
 .clear{
