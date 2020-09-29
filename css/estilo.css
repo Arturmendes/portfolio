@@ -5,30 +5,47 @@
     box-sizing: border-box;
 }
 
-.foto{
-    
+body{
+    background-color: #5F7C8A;
 }
 
-img{
-    width: 100px;
-    height: 150px;
+header{           
+    background-color: white;
+    width: 70%;
+    max-width: 1024px;    
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    box-shadow: -10px 5px 3px rgba(255, 255, 255, 0.473);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
     
 }
 
 .titulo{    
-    margin-left: 60px;
-}
-header{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background-color: blue;
-    width: 780px;
-    height: 150px;
-    margin: auto;
-    box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.473);
+       
+    
 }
 
-.clear{
-    clear: both;
+
+.foto{
+    
+    
+    
+    
 }
+
+.foto img{    
+    display: block;
+    width: 100px;
+    height: 200px;    
+}
+
+
+
