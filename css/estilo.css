@@ -6,16 +6,25 @@
 }
 
 body{
-    background-color: #5F7C8A;
+    background-color: #000000;
 }
 
 header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center; 
+     
 }
 
+a{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: blue;
+}
 img{
     max-width: 150px;
     max-height: 100px;
@@ -26,9 +35,10 @@ img{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;/*ja é o padrão, não precisa colocar*/
-    background-color: #dddddd;
-    width: 1500px;
+    background-color: #ffffff;
+    width: 80%;
     max-width: 1024px;
+    box-shadow: -2px 10px 5px rgba(255, 255, 255, 0.6); 
 }
 .container div{    
     margin: 10px;
