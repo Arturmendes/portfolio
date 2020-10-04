@@ -9,15 +9,28 @@ body{
     background-color: #5F7C8A;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+img{
+    max-width: 150px;
+    max-height: 100px;
+}
+
 .container{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;/*ja é o padrão, não precisa colocar*/
     background-color: #dddddd;
+    width: 1500px;
     max-width: 1024px;
 }
-.container div{
-    
-    background-color: #ff0000;
+.container div{    
     margin: 10px;
     padding: 10px;
     font-size: 18px;
