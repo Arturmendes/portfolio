@@ -36,6 +36,10 @@ img{
     align-items: center;
     flex-direction: row;/*ja é o padrão, não precisa colocar*/
     background-color: #ffffff;
+    background-image: url('../img/background-header.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
     width: 80%;
     max-width: 1024px;
     box-shadow: -2px 10px 5px rgba(255, 255, 255, 0.6); 
