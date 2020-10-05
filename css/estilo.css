@@ -14,20 +14,25 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    background-image: url('../img/background-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
      
 }
 
 a{
     text-decoration: none;
+    color: black;
     
 }
 
 a:visited{
-    color: blue;
+    color: black;
 }
 img{
     max-width: 150px;
     max-height: 100px;
+    
 }
 
 .container{
@@ -36,6 +41,7 @@ img{
     align-items: center;
     flex-direction: row;/*ja é o padrão, não precisa colocar*/
     background-color: #ffffff;
+    opacity: 1;
     background-image: url('../img/background-header.png');
     background-repeat: no-repeat;
 	background-size: cover;
